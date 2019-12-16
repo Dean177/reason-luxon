@@ -1,0 +1,39 @@
+{
+  "name": "reason-luxon",
+  "description": "bucklescript bindings for luxon",
+  "license": "MIT",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Dean177/reason-luxon",
+  "keywords": [
+    "binding",
+    "bucklescript",
+    "luxon",
+    "ocaml",
+    "reason",
+    "reasonml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dean177/reason-luxon.git"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "luxon": "^1.21.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "0.5.1",
+    "bs-platform": "7.2.2",
+    "luxon": "1.22.2"
+  },
+  "dependencies": {},
+  "jest": {
+    "testMatch": [
+      "**/test/*Test.bs.js"
+    ]
+  }
+}
