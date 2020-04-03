@@ -2,7 +2,7 @@
   "name": "reason-luxon",
   "description": "bucklescript bindings for luxon",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "homepage": "https://github.com/Dean177/reason-luxon",
   "keywords": [
     "binding",
