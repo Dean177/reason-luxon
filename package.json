@@ -28,7 +28,7 @@
   "devDependencies": {
     "@glennsl/bs-jest": "0.5.1",
     "bs-platform": "7.2.2",
-    "luxon": "1.22.2"
+    "luxon": "1.28.1"
   },
   "dependencies": {},
   "jest": {
